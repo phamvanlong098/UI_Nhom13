@@ -34,7 +34,7 @@
     font-family: 'Knewave', cursive;
     color: var(--main-color);
     font-size: 4rem;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 #content .second-word {

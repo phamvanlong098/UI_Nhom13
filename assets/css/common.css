@@ -25,6 +25,7 @@ html {
     background-color: var(--main-color) !important ;
     color: var(--white-color) !important ;
     border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .btn--small {
