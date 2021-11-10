@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: #f5f5f5;
+    padding-bottom: 100px;
+}
+
+#slider {
+    width: 100%;
+    padding-top: calc(var(--header-height) + 20px);
+}
+
+#slider .slider__choise {
+    margin-top: 32px;
+}
+
+#slider img {
+    width: 100%;
+}
+
+#slider .row {
+    justify-content:center;
+}
+
+#content {
+    color: var(--text-color);
+}
+
+#content .first-word {
+    font-family: 'Knewave', cursive;
+    color: var(--main-color);
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+#content .second-word {
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+}
+
+
+
+#content .main-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 260px;
+    margin-bottom: 40px;
+}
+
+#content .main-paragraph .main-slogan {
+    text-align: center;
+    position: relative;
+    padding-right: 60px;
+}
+
+#content .main-paragraph .main-content {
+    /* line-height: 5.5rem; */
+    font-size: 3rem;
+}
+
+#content .main-paragraph:first-child {
+    /* position: relative */
+
+}
+
+#content .sub-paragraph {
+    display: flex;
+    background-color: var(--white-color);
+    box-shadow: 5px 5px 5px #ddd;
+    height: 380px;
+}
+
+#content .sub-content {
+    padding: 32px 20px 0px;
+    position: relative;
+}
+
+#content .sub-content .first-word {
+    margin-right: 8px;
+    
+}
+
+
+#content .sub-content p {
+    font-family: 'Rubik', sans-serif;
+    color: var(--text-color);
+    font-size: 1.6rem;
+
+    margin-top: 24px;
+    position: relative;
+    margin-bottom: 40px;
+    max-height: 150px;
+    text-overflow: ellipsis;
+    
+}
+
+#content .sub-paragraph .first-word,
+#content .sub-paragraph .second-word {
+    font-family: "Anton", sans-serif;
+    font-size: 32px;
+}
+
+
+
+.content__1-img {
+    background-image: url(../img/phuong\ tien\ truyen\ thong.jpg);
+    background-repeat:no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.content__2-img {
+    background-image: url(../img/nha\ .jpg);
+    background-repeat:no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.content__3-img {
+    background-image: url(../img/trang\ phuc\ dan\ ong.jpg);
+    background-repeat:no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.content__4-img {
+    background-image: url(../img/trang\ phuc\ phu\ nu.jpg);
+    background-repeat:no-repeat;
+    background-clip: border-box;
+    background-size:cover;
+    min-height: 100%;
+}
+
+
+#content > .row > .col {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-right: 28px;
+}
+
+
+#content .btn,
+#content .btn i {
+    font-size: 1.6rem;
+}
+
+#content .btn {
+    min-width: 132px;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
