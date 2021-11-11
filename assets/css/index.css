@@ -139,6 +139,14 @@
     min-height: 100%;
 }
 
+.content__6-img {
+    background-image: url(../img/bacho/1920.jpg);
+    background-repeat:no-repeat;
+    background-clip: border-box;
+    background-size:cover;
+    min-height: 100%;
+}
+
 
 #content > .row > .col {
     margin-top: 8px;
